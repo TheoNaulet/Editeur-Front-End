@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style></style>
+    <script></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Editor HTML & CSS</h1>
+    <div class="button">
+        <button>b</button>
+        <button>i</button>
+    </div>
+    <div>
+        <label>Nombre max de caractères</label>
+        <input id="maxVal" type="text" value="200">
+    </div>
+    <div id="textbutton">
+        <div id="buttons">
+            <button class="button" value="div" onclick="fillingArea(value)">div</button>
+            <button class="button" value="h1" onclick="fillingArea(value)">h1</button>
+            <button class="button" value="h2" onclick="fillingArea(value)">h2</button>
+            <button class="button" value="h3" onclick="fillingArea(value)">h3</button>
+            <button class="button" value="input" onclick="fillingArea(value)">input</button>
+            <button class="button" value="span" onclick="fillingArea(value)">span</button>
+            <button class="button" value="nav" onclick="fillingArea(value)">nav</button>
+            <button class="button" value="br" onclick="fillingArea(value)">br</button>
+            <button class="button" value="button" onclick="fillingArea(value)">button</button>
+            <button class="button" value="ul" onclick="fillingArea(value)">ul</button>
+            <button class="button" value="li" onclick="fillingArea(value)">li</button>
+            <button class="button" value="p" onclick="fillingArea(value)">p</button>
+        </div>
+        <textarea name="textearea1" id="textarea_html" cols="100" rows="10"></textarea>
+    </div>
+    <div>
+        <h1>CSS</h1>
+        <textarea name="textearea2" id="textarea_css" cols="100" rows="10"></textarea>
+    </div>
+    <div>
+        <h1>Javascript</h1>
+        <textarea name="textearea3" id="textarea_js" cols="100" rows="10"></textarea>
+    </div>
+    <button class='js' onclick="execJs()">Execute Javascript</button>
+    <div id="progressbar"></div>
+    <div id="remaining">
+        <p>Caractères restants :</p>
+        <p id="counter"> </p>
+    </div>
+    <div class="content">
+        <h2>Live Coding</h2>
+        <p id="result"></p>
+    </div>
+</body>
+</html>
+
+<script src="./index.js"></script>

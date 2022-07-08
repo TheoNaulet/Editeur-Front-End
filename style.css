@@ -1,0 +1,37 @@
+body{
+    color: aliceblue;
+    background-color: gray;
+    justify-content: center;
+    text-align: center;
+}
+#remaining{
+    display: flex;
+    justify-content: center;
+}
+#progressbar{
+    width: 0;
+    height: 2vw;
+    margin:2vw 5vw 2vw 5vw;
+    display: flex;
+    justify-content: center;
+    background-color: green;
+    border-radius: 10vw;
+    max-width: 90vw;
+}
+#textbutton{
+    justify-content: center;
+}
+#buttons{
+    justify-content: center;
+    display: flex;
+    height: 3vw;
+    margin-top: 2vw;
+}
+button{
+    height: 3vw;
+    width: 3vw;
+    border-radius: 2vw;
+}
+.js{
+    width: 5vw;
+}
